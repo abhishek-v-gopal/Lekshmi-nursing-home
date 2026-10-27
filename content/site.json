@@ -57,9 +57,9 @@
       "lead": "Simple, affordable care, close to home.",
       "items": [
         { "title": "Outpatient (OP)", "text": "Open 9 am to 1 pm, Monday to Saturday. Dr. Naveenan has never charged an OP fee." },
-     
         { "title": "Affordable medicines", "text": "Medicines here cost far less than at other private hospitals and clinics." }
-      ]
+      ],
+      "closing": "No patient is turned away because they cannot afford care."
     },
     "naveenam": {
       "title": "Naveenam 2026",

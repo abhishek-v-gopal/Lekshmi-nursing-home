@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 :root {
   --bg: #F3F5F0; --surface: #E7EDE4; --ink: #10282C; --muted: #465B5A; --line: #C5D0C6;
@@ -33,10 +34,18 @@ a { transition: color 180ms ease, background-color 180ms ease, border-color 180m
 .sec { padding-block: 6rem; }
 @media (min-width: 768px) { .wrap { padding-inline: 2rem; } .sec { padding-block: 8rem; } }
 .tap { display: inline-flex; align-items: center; min-height: 44px; min-width: 44px; }
-.btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 1.5rem; background: var(--ink); color: var(--bg); font-weight: 600; border-radius: 2px; }
-.btn:hover { background: var(--accent); }
+.btn { display: inline-flex; align-items: center; gap: 0.6rem; min-height: 48px; padding: 0 1.6rem; background: var(--ink); color: var(--bg); font-weight: 600; border-radius: 999px; box-shadow: 0 6px 20px -10px rgb(11 30 33 / 0.6); transition: background-color 200ms ease, transform 200ms ease, box-shadow 200ms ease; }
+.btn:hover { background: var(--accent); transform: translateY(-1px); box-shadow: 0 10px 24px -10px rgb(11 30 33 / 0.6); }
+.btn::after { content: "→"; transition: transform 200ms ease; }
+.btn:hover::after { transform: translateX(3px); }
 .btn-gold { background: #D4AF5F; color: #0B1E21; }
 .btn-gold:hover { background: #E6C777; }
+.btn-ghost { background: rgb(255 255 255 / 0.08); color: #F3F5F0; border: 1px solid rgb(255 255 255 / 0.35); box-shadow: none; backdrop-filter: blur(8px); }
+.btn-ghost:hover { background: rgb(255 255 255 / 0.18); }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 1.25rem; }
+.eyebrow { display: inline-flex; align-items: center; gap: 0.6rem; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em; text-transform: uppercase; color: var(--gold); }
+.eyebrow::before { content: ""; width: 1.75rem; height: 2px; background: currentColor; }
+.glass { background: rgb(255 255 255 / 0.07); border: 1px solid rgb(255 255 255 / 0.16); backdrop-filter: blur(10px); border-radius: 1rem; }
 .link { text-decoration: underline; text-decoration-color: var(--gold); text-decoration-thickness: 2px; text-underline-offset: 0.25em; }
 .ph { background: color-mix(in srgb, var(--gold) 18%, transparent); border-bottom: 1px dashed var(--gold); padding-inline: 0.25em; }
 .ph-photo { outline: 1px dashed var(--line); outline-offset: -10px; }
@@ -44,6 +53,12 @@ a { transition: color 180ms ease, background-color 180ms ease, border-color 180m
 .reveal { transition: opacity 0.9s ease; }
 .js .reveal { opacity: 0; }
 .js .reveal.in { opacity: 1; }
+@keyframes hero-kb { from { transform: scale(1.1); } to { transform: scale(1); } }
+.hero-kb { animation: hero-kb 9s ease-out both; }
+@keyframes hero-progress { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+.hero-progress { animation: hero-progress 7s linear both; }
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+.rise { animation: rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
 @keyframes page-in { from { opacity: 0; } to { opacity: 1; } }
 .page-in { animation: page-in 0.4s ease both; }
 @media (prefers-reduced-motion: reduce) {

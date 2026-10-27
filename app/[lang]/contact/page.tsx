@@ -17,12 +17,12 @@ export default async function Contact({ params }: P) {
   return (
     <>
       <PageHead title={x.title} lead={x.lead} />
-      <section className="wrap grid gap-12 pb-16 md:grid-cols-2 md:gap-20">
-        <div>
+      <section className="wrap grid gap-6 pb-16 md:grid-cols-2 md:gap-8">
+        <div className="card p-7 md:p-9">
           <h2 className="text-2xl md:text-3xl">{x.hoursTitle}</h2>
           <div className="mt-4"><Hours d={d} /></div>
         </div>
-        <div className="space-y-10">
+        <div className="card space-y-10 p-7 md:p-9">
           <div>
             <h2 className="text-2xl md:text-3xl">{x.addressTitle}</h2>
             <p className="mt-3">{shared.address || <Txt s={x.address} />}</p>
@@ -35,7 +35,7 @@ export default async function Contact({ params }: P) {
       </section>
       <section className="wrap pb-16">
         <h2 className="text-2xl md:text-3xl">{x.mapTitle}</h2>
-        <div className="mt-6 aspect-[4/3] w-full overflow-hidden bg-surface md:aspect-[16/7]">
+        <div className="mt-6 aspect-[4/3] w-full overflow-hidden rounded-[1.5rem] border border-line bg-surface md:aspect-[16/7]">
           {shared.mapEmbedUrl ? (
             <iframe src={shared.mapEmbedUrl} title={x.mapTitle} loading="lazy" className="h-full w-full border-0" />
           ) : (

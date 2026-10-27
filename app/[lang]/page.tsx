@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Photo from "@/components/Photo";
+import HeroCarousel from "@/components/HeroCarousel";
 import Parallax from "@/components/Parallax";
 import Reveal from "@/components/Reveal";
 import Txt from "@/components/Txt";
@@ -18,44 +19,53 @@ export default async function Home({ params }: P) {
   const h = d.home;
   return (
     <>
-      <section className="relative isolate flex min-h-[clamp(38rem,88svh,54rem)] items-end overflow-hidden bg-[#0B1E21] text-[#F3F5F0]">
-        <div className="absolute inset-0 -z-10"><Parallax><Photo slot="hero" lang={lang} fill priority dark sizes="100vw" /></Parallax></div>
-        <div className="absolute inset-0 -z-10 bg-[#0B1E21]/65" />
-        <div className="wrap w-full pb-10 pt-32 md:pb-16">
-          <div className="max-w-4xl border-l-2 border-[#D4AF5F] pl-5 md:pl-8">
-            <p className="mb-6 text-xs font-semibold tracking-[0.12em] text-[#D4AF5F]">LNH · {d.ui.footerNote}</p>
-            <h1 className="max-w-4xl text-4xl sm:text-5xl md:text-7xl">{h.headline}</h1>
-            <p className="mt-6 max-w-xl text-lg text-[#DCE4DF] md:text-xl">{h.sub}</p>
+      <section className="relative isolate flex min-h-[clamp(40rem,92svh,56rem)] items-end overflow-hidden bg-[#0B1E21] text-[#F3F5F0]">
+        <HeroCarousel lang={lang} labels={d.ui.carousel} />
+        <div className="wrap w-full pb-10 pt-40 md:pb-14">
+          <div className="max-w-4xl">
+            <p className="rise eyebrow mb-6 !text-[#D4AF5F]">LNH · {d.ui.footerNote}</p>
+            <h1 className="rise max-w-4xl text-4xl drop-shadow-sm sm:text-5xl md:text-7xl" style={{ animationDelay: "120ms" }}>{h.headline}</h1>
+            <p className="rise mt-6 max-w-xl text-lg text-[#DCE4DF] md:text-xl" style={{ animationDelay: "240ms" }}>{h.sub}</p>
+            <div className="rise mt-9 flex flex-wrap gap-3" style={{ animationDelay: "360ms" }}>
+              <Link href={`/${lang}/doctor`} className="btn btn-gold">{h.teaserCta}</Link>
+              <Link href={`/${lang}/contact`} className="btn btn-ghost">{d.nav.contact}</Link>
+            </div>
           </div>
-          <dl className="mt-14 grid grid-cols-1 border-t border-[#F3F5F0]/30 sm:grid-cols-3">
-            {h.facts.map((f, i) => (
-              <div key={f.n} className={`border-b border-[#F3F5F0]/20 py-5 sm:border-b-0 sm:py-6 ${i < h.facts.length - 1 ? "sm:border-r sm:pr-6" : ""} ${i > 0 ? "sm:pl-6" : ""}`}>
-                <dd className="font-display text-4xl md:text-5xl">{f.n}</dd>
-                <dt className="mt-1 max-w-[16ch] text-sm text-[#DCE4DF] md:text-base">{f.l}</dt>
+          <dl className="rise mt-14 grid grid-cols-1 gap-3 sm:grid-cols-3 md:mt-16" style={{ animationDelay: "480ms" }}>
+            {h.facts.map((f) => (
+              <div key={f.n} className="glass flex flex-col-reverse px-5 py-4 md:px-6 md:py-5">
+                <dt className="mt-1 text-sm text-[#DCE4DF] md:text-base">{f.l}</dt>
+                <dd className="font-display text-4xl text-[#F3F5F0] md:text-5xl">{f.n}</dd>
               </div>
             ))}
           </dl>
         </div>
       </section>
 
-      <section className="sec wrap grid gap-12 md:grid-cols-[0.85fr_1.15fr] md:gap-24">
-        <Reveal>
-          <p className="mb-4 text-xs font-semibold uppercase tracking-[0.18em] text-gold">{h.opTitle}</p>
-          <h2 className="text-3xl md:text-5xl">{h.opTitle}</h2>
-          <div className="mt-8 border-t border-line"><Hours d={d} /></div>
+      <section className="sec wrap grid gap-6 md:grid-cols-[0.9fr_1.1fr] md:gap-8">
+        <Reveal className="card p-7 md:p-10">
+          <p className="eyebrow mb-4">{h.opTitle}</p>
+          <h2 className="text-3xl md:text-4xl">{h.opTitle}</h2>
+          <div className="mt-6"><Hours d={d} /></div>
         </Reveal>
-        <Reveal className="border-t border-line pt-6 md:pt-8">
-          <h2 className="text-2xl md:text-4xl">{h.promiseTitle}</h2>
-          <p className="mt-6 text-lg text-muted">{h.promiseText}</p>
+        <Reveal className="relative flex flex-col justify-end overflow-hidden rounded-[1.25rem] bg-accent p-7 text-[#F3F5F0] md:p-10 dark:text-[#0B1E21]">
+          <span aria-hidden="true" className="absolute -right-6 -top-10 font-display text-[12rem] leading-none opacity-15">₹0</span>
+          <h2 className="relative text-3xl md:text-5xl">{h.promiseTitle}</h2>
+          <p className="relative mt-6 text-lg opacity-90">{h.promiseText}</p>
+          <Link href={`/${lang}/services`} className="relative mt-8 inline-flex w-fit items-center gap-2 font-semibold underline decoration-2 underline-offset-4">{d.nav.services} →</Link>
         </Reveal>
       </section>
 
       <section className="bg-surface">
         <div className="sec wrap grid items-center gap-12 md:grid-cols-12 md:gap-20">
-          <div className="relative aspect-[4/5] overflow-hidden md:col-span-5 md:aspect-[3/4]">
-            <Parallax><Photo slot="doctor" lang={lang} fill sizes="(min-width:768px) 40vw, 100vw" /></Parallax>
+          <div className="relative md:col-span-5">
+            <div aria-hidden="true" className="absolute -bottom-4 -right-4 h-full w-full rounded-[1.5rem] border-2 border-gold/60" />
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] shadow-2xl shadow-black/20 md:aspect-[3/4]">
+              <Parallax><Photo slot="doctor" lang={lang} fill sizes="(min-width:768px) 40vw, 100vw" /></Parallax>
+            </div>
           </div>
-          <Reveal className="md:col-span-6 md:col-start-7 md:border-t md:border-line md:pt-8">
+          <Reveal className="md:col-span-6 md:col-start-7">
+            <p className="eyebrow mb-5">{d.nav.doctor}</p>
             <h2 className="text-3xl md:text-5xl">{h.teaserTitle}</h2>
             <p className="mt-6 text-lg text-muted">{h.teaser}</p>
             <Link href={`/${lang}/doctor`} className="btn mt-8">{h.teaserCta}</Link>
@@ -63,9 +73,11 @@ export default async function Home({ params }: P) {
         </div>
       </section>
 
-      <section className="bg-[#0B1E21] text-[#F3F5F0]">
-        <Reveal className="sec wrap">
-          <div className="mb-8 h-0.5 w-16 bg-[#D4AF5F]" />
+      <section className="sec wrap">
+        <Reveal className="relative isolate overflow-hidden rounded-[1.75rem] bg-[#0B1E21] px-7 py-16 text-[#F3F5F0] md:px-16 md:py-24">
+          <div className="absolute inset-0 -z-10 opacity-45"><Photo slot="backwater" lang={lang} fill dark sizes="(min-width:1024px) 76rem, 100vw" /></div>
+          <div className="absolute inset-0 -z-10 bg-gradient-to-r from-[#0B1E21] via-[#0B1E21]/80 to-transparent" />
+          <p className="eyebrow mb-6 !text-[#D4AF5F]">{d.naveenam.details[0].v}</p>
           <h2 className="text-3xl md:text-6xl">{h.bannerTitle}</h2>
           <p className="mt-6 text-lg text-[#DCE4DF] md:text-xl">{h.bannerText}</p>
           <Link href={`/${lang}/naveenam`} className="btn btn-gold mt-8">{h.bannerCta}</Link>

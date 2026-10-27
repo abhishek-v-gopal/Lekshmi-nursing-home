@@ -17,10 +17,11 @@ export default async function Services({ params }: P) {
     <>
       <PageHead title={x.title} lead={x.lead} />
       <section className="wrap pb-12">
-        <div className="mb-16 max-w-3xl"><Photo slot="hospital" lang={lang} ratio="3 / 2" sizes="(min-width:768px) 48rem, 100vw" /></div>
-        <ul className="grid gap-x-16 md:grid-cols-2">
+        <div className="mb-16 max-w-3xl overflow-hidden rounded-[1.5rem] shadow-xl shadow-black/10"><Photo slot="hospital" lang={lang} ratio="3 / 2" sizes="(min-width:768px) 48rem, 100vw" /></div>
+        <ul className="grid gap-6 md:grid-cols-2">
           {x.items.map((i) => (
-            <li key={i.title} className="border-t border-line py-8">
+            <li key={i.title} className="card p-7 transition hover:-translate-y-1 hover:shadow-xl hover:shadow-black/5 md:p-9">
+              <span aria-hidden="true" className="mb-5 block h-1 w-10 rounded-full bg-gold" />
               <h2 className="text-2xl md:text-3xl">{i.title}</h2>
               <p className="mt-3 text-muted"><Txt s={i.text} /></p>
             </li>

@@ -19,7 +19,7 @@ export default async function Doctor({ params }: P) {
       <section className="wrap grid gap-12 pb-20 md:grid-cols-12 md:gap-16">
         <div className="md:order-2 md:col-span-5">
           <div className="md:sticky md:top-24">
-            <div className="relative aspect-[4/5] overflow-hidden">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-[1.5rem] shadow-xl shadow-black/15">
               <Parallax><Photo slot="doctor" lang={lang} fill priority sizes="(min-width:768px) 40vw, 100vw" /></Parallax>
             </div>
             <p className="mt-3 text-sm text-muted"><Txt s={x.photoCaption} /></p>

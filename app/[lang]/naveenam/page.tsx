@@ -28,15 +28,15 @@ export default async function Naveenam({ params }: P) {
           </dl>
           <p className="mt-8 text-muted"><Txt s={x.about} /></p>
         </div>
-        <div className="bg-surface p-8 md:p-12">
+        <div className="card p-8 md:p-12">
           <h2 className="text-3xl">{x.rsvpTitle}</h2>
           <p className="mt-4 text-muted">{x.rsvpText}</p>
           <div className="mt-8">
-            <a href="https://chat.whatsapp.com/5g0k1r6y7v8x9y0z" target="_blank" rel="noopener noreferrer" className="btn">{x.rsvpCta}</a>
+            <a href={x.rsvpUrl} target="_blank" rel="noopener noreferrer" className="btn">{x.rsvpCta}</a>
           </div>
         </div>
       </section>
-      <div className="wrap pb-24"><Photo slot="doctorWide" lang={lang} ratio="3 / 2" sizes="(min-width:1024px) 64rem, 100vw" /></div>
+      <div className="wrap pb-24"><div className="overflow-hidden rounded-[1.5rem]"><Photo slot="doctorWide" lang={lang} ratio="3 / 2" sizes="(min-width:1024px) 64rem, 100vw" /></div></div>
     </>
   );
 }

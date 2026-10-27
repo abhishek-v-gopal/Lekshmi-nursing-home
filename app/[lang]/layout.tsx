@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { cookies } from "next/headers";
 import { Noto_Serif, Noto_Sans, Noto_Serif_Malayalam, Noto_Sans_Malayalam } from "next/font/google";
 import "../globals.css";
 import Header from "@/components/Header";
@@ -25,13 +26,15 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
   };
 }
 
-const themeScript = `try{var c=document.cookie.match(/(?:^|; )theme=(dark|light)/);var t=localStorage.getItem('theme')||(c&&c[1]);if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')`;
+const themeScript = `try{var c=document.cookie.match(/(?:^|; )theme=(dark|light)/);var t=(c&&c[1])||localStorage.getItem('theme');if(!t)t=matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';document.documentElement.dataset.theme=t}catch(e){}document.documentElement.classList.add('js')`;
 
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: Promise<{ lang: string }> }) {
   const { lang: raw } = await params;
   if (!isLang(raw)) notFound();
   const lang: Lang = raw;
   const d = getDict(lang);
+  const savedTheme = (await cookies()).get("theme")?.value;
+  const theme = savedTheme === "dark" || savedTheme === "light" ? savedTheme : undefined;
   const ld = {
     "@context": "https://schema.org", "@type": "Hospital", name: "Lekshmi Nursing Home", description: d.meta.description,
     areaServed: "Kuttanad, Alappuzha, Kerala",
@@ -41,7 +44,7 @@ export default async function RootLayout({ children, params }: { children: React
     ...(shared.phone ? { telephone: shared.phone } : {}),
   };
   return (
-    <html lang={lang} suppressHydrationWarning className={`${serifL.variable} ${sansL.variable} ${serifM.variable} ${sansM.variable}`}>
+    <html lang={lang} data-theme={theme} suppressHydrationWarning className={`${serifL.variable} ${sansL.variable} ${serifM.variable} ${sansM.variable}`}>
       <head><script dangerouslySetInnerHTML={{ __html: themeScript }} /></head>
       <body>
         <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-50 focus:bg-bg focus:p-3">{d.ui.skip}</a>

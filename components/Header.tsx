@@ -19,7 +19,6 @@ export default function Header({ lang, nav, ui }: { lang: "en" | "ml"; nav: Reco
   };
   const remember = (l: string) => {
     document.cookie = `lang=${l};path=/;max-age=31536000;samesite=lax`;
-    rememberTheme(document.documentElement.dataset.theme || "light");
     try { localStorage.setItem("lang", l); } catch {}
   };
   useEffect(() => remember(lang), [lang]);

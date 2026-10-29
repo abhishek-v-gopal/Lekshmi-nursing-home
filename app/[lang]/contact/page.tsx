@@ -29,7 +29,7 @@ export default async function Contact({ params }: P) {
           </div>
           <div>
             <h2 className="text-2xl md:text-3xl">{x.phoneTitle}</h2>
-            <p className="mt-3">{shared.phone ? <a className="tap link" href={`tel:${shared.phone}`}>{shared.phone}</a> : <Txt s={x.phone} />}</p>
+            <p className="mt-3">{shared.phone ? <a className="tap link" href={`tel:${shared.phone.replace(/\s/g, "")}`}>{shared.phone}</a> : <Txt s={x.phone} />}</p>
           </div>
         </div>
       </section>
@@ -46,7 +46,7 @@ export default async function Contact({ params }: P) {
       <section className="bg-[#0B1E21] text-[#F3F5F0]">
         <div className="sec wrap">
           <h2 className="text-3xl md:text-4xl">{x.emergencyTitle}</h2>
-          <p className="mt-4 text-lg text-[#DCE4DF]"><Txt s={x.emergencyText} /></p>
+          <p className="mt-4 text-lg text-[#DCE4DF]">{shared.phone ? <a className="tap link font-display text-2xl text-[#F3F5F0] md:text-3xl" href={`tel:${shared.phone.replace(/\s/g, "")}`}>{shared.phone}</a> : <Txt s={x.emergencyText} />}</p>
         </div>
       </section>
     </>

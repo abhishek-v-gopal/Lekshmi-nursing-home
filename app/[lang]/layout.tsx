@@ -38,7 +38,7 @@ export default async function RootLayout({ children, params }: { children: React
   const ld = {
     "@context": "https://schema.org", "@type": "Hospital", name: "Lekshmi Nursing Home", description: d.meta.description,
     areaServed: "Kuttanad, Alappuzha, Kerala",
-    employee: { "@type": "Physician", name: "Dr. Naveen" },
+    employee: { "@type": "Physician", name: "Dr. M S Naveenan MBBS" },
     openingHoursSpecification: [{ "@type": "OpeningHoursSpecification", dayOfWeek: shared.days, opens: shared.opens, closes: shared.closes }],
     ...(shared.address ? { address: { "@type": "PostalAddress", streetAddress: shared.address, addressRegion: "Kerala", addressCountry: "IN" } } : {}),
     ...(shared.phone ? { telephone: shared.phone } : {}),

@@ -1,35 +1,35 @@
 {
   "shared": {
-    "address": "Lekshmi Nursing Home, Mampuzhakari, SH11, Kuttanad Taluk, Keralam 689595", "phone": "", "rsvpUrl": "", "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.80407926357094!2d76.47198620965838!3d9.42212163341523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06279bbecefcb5%3A0x7b988f4a3c807cae!2sLakshmi%20Nursing%20Home!5e1!3m2!1sen!2sin!4v1793033448148!5m2!1sen!2sin",
-    "opens": "09:00", "closes": "17:00",
+    "address": "Lekshmi Nursing Home, Mampuzhakari, SH11, Kuttanad Taluk, Keralam 689595", "phone": "+91 97454 95562", "rsvpUrl": "", "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.80407926357094!2d76.47198620965838!3d9.42212163341523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06279bbecefcb5%3A0x7b988f4a3c807cae!2sLakshmi%20Nursing%20Home!5e1!3m2!1sen!2sin!4v1793033448148!5m2!1sen!2sin",
+    "opens": "09:00", "closes": "13:00",
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   },
   "en": {
-    "meta": { "title": "Lekshmi Nursing Home, Kuttanad", "description": "A small hospital in Kuttanad led by Dr. Naveenan, who has served the people of Kuttanad for 50 years and has never charged an OP fee." },
+    "meta": { "title": "Lekshmi Nursing Home, Kuttanad", "description": "A small hospital in Kuttanad led by Dr. M S Naveenan, who has served the people of Kuttanad for 50 years and has never charged an OP fee." },
     "ui": { "name": "Lekshmi Nursing Home", "skip": "Skip to content", "menu": "Menu", "close": "Close", "lang": "മലയാളം", "langLabel": "Switch to Malayalam", "theme": "Switch between light and dark theme", "more": "Read the full story", "footerNote": "Kuttanad, Alappuzha, Kerala", "carousel": { "previous": "Previous image", "next": "Next image", "slide": "Hero image", "pause": "Pause slideshow", "play": "Play slideshow" } },
-    "nav": { "home": "Home", "doctor": "Dr. Naveenan", "story": "Our story", "services": "Services", "naveenam": "Naveenam 2026", "contact": "Contact" },
-    "hours": [ { "k": "OP", "v": "9 am to 1 pm" }, { "k": "Hospital", "v": "Open until 5 pm" }, { "k": "Sunday", "v": "Holiday" } ],
+    "nav": { "home": "Home", "doctor": "Dr. M S Naveenan", "story": "Our story", "services": "Services", "naveenam": "Naveenam 2026", "contact": "Contact" },
+    "hours": [ { "k": "OP", "v": "9 am to 1 pm" }, { "k": "Sunday", "v": "Holiday" } ],
     "hoursNote": "Hours may change. Please check before you travel.",
     "home": {
       "headline": "Fifty years of care, given like family.",
-      "sub": "Lekshmi Nursing Home in Kuttanad, led by Dr. Naveenan, who still sees patients himself.",
+      "sub": "Lekshmi Nursing Home in Kuttanad, led by Dr. M S Naveenan, who still sees patients himself.",
       "facts": [ { "n": "50", "l": "years serving Kuttanad" }, { "n": "₹0", "l": "OP fee, ever" }, { "n": "2600+", "l": "babies born here" } ],
       "opTitle": "When to come",
       "promiseTitle": "No one is sent away for lack of money.",
-      "promiseText": "Dr. Naveenan has never charged an OP fee. Medicines here cost far less than at other private hospitals and clinics.",
+      "promiseText": "Dr. M S Naveenan has never charged an OP fee. Medicines here cost far less than at other private hospitals and clinics.",
       "teaserTitle": "Not a native of Kuttanad. Family all the same.",
-      "teaser": "After his house surgeoncy, in the gap before his PG, Dr. Naveenan came to Ramankari and served for a few years. Today the people of Kuttanad treat him as one of their own.",
-      "teaserCta": "about Dr. Naveenan",
+      "teaser": "After his house surgeoncy, in the gap before his PG, Dr. M S Naveenan came to Ramankari and served for a few years. Today the people of Kuttanad treat him as one of their own.",
+      "teaserCta": "about Dr. M S Naveenan",
       "bannerTitle": "Naveenam 2026",
-      "bannerText": "A community gathering to honour Dr. Naveenan's 50 years of service to Kuttanad.",
+      "bannerText": "A community gathering to honour Dr. M S Naveenan's 50 years of service to Kuttanad.",
       "bannerCta": "See event details"
     },
     "doctor": {
-      "title": "Dr. Naveenan",
+      "title": "Dr. M S Naveenan MBBS",
       "lead": "Owner of Lekshmi Nursing Home. Fifty years in Kuttanad, and still seeing patients.",
       "quals": "",
       "paras": [
-        "Dr. Naveenan was not born in Kuttanad. After his house surgeoncy, in the gap before his PG, he came to Ramankari and served there for a few years.",
+        "Dr. M S Naveenan was not born in Kuttanad. After his house surgeoncy, in the gap before his PG, he came to Ramankari and served there for a few years.",
         "He then ran a hospital for some months from a rented building, and later built the hospital building that Lekshmi Nursing Home works from today.",
         "Fifty years on, he still sees patients himself."
       ],
@@ -40,32 +40,32 @@
       ],
       "numbersTitle": "In numbers",
       "numbers": [ "50 years of service", "No OP fee, ever", "More than 100 babies born here, without a specialist gynaecologist" ],
-      "photoCaption": "Dr. Naveenan "
+      "photoCaption": "Dr. M S Naveenan MBBS"
     },
     "story": {
       "title": "Our story",
       "lead": "From a few years in Ramankari to the hospital that stands today.",
       "steps": [
-        { "year": "1976", "title": "Ramankari", "text": "After his house surgeoncy, in the gap before his PG, Dr. Naveenan came to Ramankari and served for a few years." },
-        { "year": "1978", "title": "A rented building", "text": "He ran the hospital for some months from a rented building." },
+        { "year": "1977 February", "title": "Ramankari", "text": "After his house surgeoncy, in the gap before his PG, Dr. M S Naveenan came to Ramankari and served for a few years." },
+        { "year": "1977 September", "title": "A rented building", "text": "He ran the hospital for some months from a rented building." },
         { "year": "1980", "title": "The hospital today", "text": "He built the hospital building that Lekshmi Nursing Home works from now." },
-        { "year": "Today", "title": "Fifty years on", "text": "Dr. Naveenan still sees patients. More than 100 babies have been born here, and no OP fee has ever been charged." }
+        { "year": "Today", "title": "Fifty years on", "text": "Dr. M S Naveenan still sees patients. More than 100 babies have been born here, and no OP fee has ever been charged." }
       ]
     },
     "services": {
       "title": "Services",
       "lead": "Simple, affordable care, close to home.",
       "items": [
-        { "title": "Outpatient (OP)", "text": "Open 9 am to 1 pm, Monday to Saturday. Dr. Naveenan has never charged an OP fee." },
+        { "title": "Outpatient (OP)", "text": "Open 9 am to 1 pm, Monday to Saturday. Dr. M S Naveenan has never charged an OP fee." },
         { "title": "Affordable medicines", "text": "Medicines here cost far less than at other private hospitals and clinics." }
       ],
       "closing": "No patient is turned away because they cannot afford care."
     },
     "naveenam": {
       "title": "Naveenam 2026",
-      "lead": "A community gathering to honour Dr. Naveenan's 50 years of service to Kuttanad.",
+      "lead": "A community gathering to honour Dr. M S Naveenan's 50 years of service to Kuttanad.",
       "details": [ { "k": "Date", "v": "1/11/2026" }, { "k": "Time", "v": "2:00 PM" }, { "k": "Venue", "v": "Ramankari SNDP open Hall" } ],
-      "about": "Naveenam 2026 – Golden Jubilee Felicitation Ceremony Naveenam 2026 is being organised to honour Dr. Naveenan for completing 50 remarkable years of dedicated service in the field of healthcare. This special occasion celebrates the contributions of Kuttanad’s beloved people’s doctor, recognising his compassion, commitment, and invaluable service to the community. Date: November 1, 2026 Venue: Ramankari SNDP Hall",
+      "about": "Naveenam 2026 – Golden Jubilee Felicitation Ceremony Naveenam 2026 is being organised to honour Dr. M S Naveenan for completing 50 remarkable years of dedicated service in the field of healthcare. This special occasion celebrates the contributions of Kuttanad’s beloved people’s doctor, recognising his compassion, commitment, and invaluable service to the community. Date: November 1, 2026 Venue: Ramankari SNDP Hall",
       "rsvpTitle": "Join us",
       "rsvpText": "join the whatsapp group",
       "rsvpCta": "RSVP",
@@ -76,36 +76,36 @@
       "title": "Contact",
       "lead": "Find us in Kuttanad, Alappuzha.",
       "hoursTitle": "Hours", "addressTitle": "Address", "address": "Lekshmi Nursing Home, Mampuzhakari, SH11, Kuttanad Taluk, Keralam 689595",
-      "phoneTitle": "Phone", "phone": "+91 1234567890",
+      "phoneTitle": "Phone", "phone": "+91 97454 95562",
       "mapTitle": "Map", "mapMissing": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.80407926357094!2d76.47198620965838!3d9.42212163341523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06279bbecefcb5%3A0x7b988f4a3c807cae!2sLakshmi%20Nursing%20Home!5e1!3m2!1sen!2sin!4v1793033448148!5m2!1sen!2sin",
-      "emergencyTitle": "In an emergency", "emergencyText": "+91 1234567890"
+      "emergencyTitle": "In an emergency", "emergencyText": "+91 97454 95562"
     }
   },
   "ml": {
-    "meta": { "title": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം, കുട്ടനാട്", "description": "ഡോ. നവീനന്റെ നേതൃത്വത്തിൽ കുട്ടനാടിന് അൻപതു വർഷമായി കരുതലേകുന്ന ഒരു ചെറിയ ആശുപത്രി. ഒപി ഫീസ് ഇന്നുവരെ ഇല്ല." },
+    "meta": { "title": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം, കുട്ടനാട്", "description": "ഡോ. എം. എസ്. നവീനന്റെ നേതൃത്വത്തിൽ കുട്ടനാടിന് അൻപതു വർഷമായി കരുതലേകുന്ന ഒരു ചെറിയ ആശുപത്രി. ഒപി ഫീസ് ഇന്നുവരെ ഇല്ല." },
     "ui": { "name": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം", "skip": "ഉള്ളടക്കത്തിലേക്ക് പോകുക", "menu": "മെനു", "close": "അടയ്ക്കുക", "lang": "English", "langLabel": "Switch to English", "theme": "ഇളം / ഇരുണ്ട തീം മാറ്റുക", "more": "മുഴുവൻ കഥ വായിക്കുക", "footerNote": "കുട്ടനാട്, ആലപ്പുഴ, കേരളം", "carousel": { "previous": "മുമ്പത്തെ ചിത്രം", "next": "അടുത്ത ചിത്രം", "slide": "പ്രധാന ചിത്രം", "pause": "സ്ലൈഡ്ഷോ നിർത്തുക", "play": "സ്ലൈഡ്ഷോ തുടരുക" } },
-    "nav": { "home": "ഹോം", "doctor": "ഡോ. നവീനൻ", "story": "ഞങ്ങളുടെ കഥ", "services": "സേവനങ്ങൾ", "naveenam": "നവീനം 2026", "contact": "ബന്ധപ്പെടാൻ" },
-    "hours": [ { "k": "ഒപി", "v": "രാവിലെ 9 മുതൽ ഉച്ചയ്ക്ക് 1 വരെ" }, { "k": "ആശുപത്രി", "v": "വൈകിട്ട് 5 വരെ തുറന്നിരിക്കും" }, { "k": "ഞായർ", "v": "അവധി" } ],
+    "nav": { "home": "ഹോം", "doctor": "ഡോ. എം. എസ്. നവീനൻ", "story": "ഞങ്ങളുടെ കഥ", "services": "സേവനങ്ങൾ", "naveenam": "നവീനം 2026", "contact": "ബന്ധപ്പെടാൻ" },
+    "hours": [ { "k": "ഒപി", "v": "രാവിലെ 9 മുതൽ ഉച്ചയ്ക്ക് 1 വരെ" }, { "k": "ഞായർ", "v": "അവധി" } ],
     "hoursNote": "സമയത്തിൽ മാറ്റം വരാം. വരുന്നതിനുമുമ്പ് ഒന്ന് ഉറപ്പാക്കുക.",
     "home": {
       "headline": "അൻപതു വർഷത്തെ കരുതൽ, കുടുംബത്തിലൊരാളെപ്പോലെ.",
-      "sub": "കുട്ടനാട്ടിലെ ലക്ഷ്മി നഴ്സിംഗ് ഹോം. ഇന്നും രോഗികളെ നേരിട്ടു കാണുന്ന ഡോ. നവീനന്റെ നേതൃത്വത്തിൽ.",
+      "sub": "കുട്ടനാട്ടിലെ ലക്ഷ്മി നഴ്സിംഗ് ഹോം. ഇന്നും രോഗികളെ നേരിട്ടു കാണുന്ന ഡോ. എം. എസ്. നവീനന്റെ നേതൃത്വത്തിൽ.",
       "facts": [ { "n": "50", "l": "വർഷം കുട്ടനാടിനൊപ്പം" }, { "n": "₹0", "l": "ഒപി ഫീസ്, ഇന്നുവരെ" }, { "n": "2600+", "l": "കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" } ],
       "opTitle": "എപ്പോൾ വരാം",
       "promiseTitle": "പണമില്ലെന്ന കാരണത്താൽ ആരെയും മടക്കി അയയ്ക്കാറില്ല.",
-      "promiseText": "ഡോ. നവീൻ ഇന്നുവരെ ഒപി ഫീസ് വാങ്ങിയിട്ടില്ല. മറ്റു സ്വകാര്യ ആശുപത്രികളിലും ക്ലിനിക്കുകളിലും ഉള്ളതിനെക്കാൾ വളരെ കുറഞ്ഞ വിലയ്ക്കാണ് ഇവിടെ മരുന്നുകൾ.",
+      "promiseText": "ഡോ. എം. എസ്. നവീനൻ ഇന്നുവരെ ഒപി ഫീസ് വാങ്ങിയിട്ടില്ല. മറ്റു സ്വകാര്യ ആശുപത്രികളിലും ക്ലിനിക്കുകളിലും ഉള്ളതിനെക്കാൾ വളരെ കുറഞ്ഞ വിലയ്ക്കാണ് ഇവിടെ മരുന്നുകൾ.",
       "teaserTitle": "കുട്ടനാട്ടുകാരനല്ല. എങ്കിലും ഞങ്ങളിലൊരാൾ.",
-      "teaser": "ഹൗസ് സർജൻസിക്കു ശേഷം പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ ഡോ. നവീനൻ രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു. ഇന്ന് കുട്ടനാട്ടുകാർ അദ്ദേഹത്തെ സ്വന്തം വീട്ടിലെ ഒരാളായി കാണുന്നു.",
-      "teaserCta": "ഡോ. നവീനൻ",
+      "teaser": "ഹൗസ് സർജൻസിക്കു ശേഷം പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ ഡോ. എം. എസ്. നവീനൻ രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു. ഇന്ന് കുട്ടനാട്ടുകാർ അദ്ദേഹത്തെ സ്വന്തം വീട്ടിലെ ഒരാളായി കാണുന്നു.",
+      "teaserCta": "ഡോ. എം. എസ്. നവീനൻ",
       "bannerTitle": "നവീനം 2026",
-      "bannerText": "കുട്ടനാടിനു വേണ്ടിയുള്ള ഡോ. നവീനന്റെ അൻപതു വർഷത്തെ സേവനത്തെ ആദരിക്കാൻ നാട്ടുകാർ ഒത്തുചേരുന്ന ചടങ്ങ്.",
+      "bannerText": "കുട്ടനാടിനു വേണ്ടിയുള്ള ഡോ. എം. എസ്. നവീനന്റെ അൻപതു വർഷത്തെ സേവനത്തെ ആദരിക്കാൻ നാട്ടുകാർ ഒത്തുചേരുന്ന ചടങ്ങ്.",
       "bannerCta": "വിവരങ്ങൾ കാണുക"
     },
     "doctor": {
-      "title": "ഡോ. നവീനൻ",
+      "title": "ഡോ. എം. എസ്. നവീനൻ MBBS",
       "lead": "ലക്ഷ്മി നഴ്സിംഗ് ഹോമിന്റെ ഉടമ. കുട്ടനാട്ടിൽ അൻപതു വർഷം, ഇന്നും രോഗികളെ കാണുന്നു.",
       "paras": [
-        "ഡോ. നവീനൻ കുട്ടനാട്ടിൽ ജനിച്ചയാളല്ല. ഹൗസ് സർജൻസി കഴിഞ്ഞ്, പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ അദ്ദേഹം രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു.",
+        "ഡോ. എം. എസ്. നവീനൻ കുട്ടനാട്ടിൽ ജനിച്ചയാളല്ല. ഹൗസ് സർജൻസി കഴിഞ്ഞ്, പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ അദ്ദേഹം രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു.",
         "പിന്നീട് ഏതാനും മാസം ഒരു വാടക കെട്ടിടത്തിൽ ആശുപത്രി നടത്തി. അതിനുശേഷം ഇന്ന് ലക്ഷ്മി നഴ്സിംഗ് ഹോം പ്രവർത്തിക്കുന്ന കെട്ടിടം പണിതു.",
         "അൻപതു വർഷം പിന്നിടുമ്പോഴും അദ്ദേഹം രോഗികളെ നേരിട്ടു കാണുന്നു."
       ],
@@ -117,32 +117,32 @@
       ],
       "numbersTitle": "ചില കണക്കുകൾ",
       "numbers": [ "അൻപതു വർഷത്തെ സേവനം", "ഒപി ഫീസ് ഇന്നുവരെ ഇല്ല", "സ്പെഷ്യലിസ്റ്റ് ഗൈനക്കോളജിസ്റ്റ് ഇല്ലാതെതന്നെ രണ്ടായിരത്തിഅറുനൂറോളോം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" ],
-      "photoCaption": "Dr. Naveenan "
+      "photoCaption": "ഡോ. എം. എസ്. നവീനൻ MBBS"
     },
     "story": {
       "title": "ഞങ്ങളുടെ കഥ",
       "lead": "രാമങ്കരിയിലെ ഏതാനും വർഷങ്ങളിൽ നിന്ന് ഇന്നു കാണുന്ന ആശുപത്രിയിലേക്ക്.",
       "steps": [
-        { "year": "1976", "title": "രാമങ്കരി", "text": "ഹൗസ് സർജൻസിക്കു ശേഷം പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ ഡോ. നവീനൻ രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു." },
-        { "year": "1978", "title": "ഒരു വാടക കെട്ടിടം", "text": "ഏതാനും മാസം ഒരു വാടക കെട്ടിടത്തിൽ അദ്ദേഹം ആശുപത്രി നടത്തി." },
+        { "year": "1977 ഫെബ്രുവരി", "title": "രാമങ്കരി", "text": "ഹൗസ് സർജൻസിക്കു ശേഷം പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ ഡോ. എം. എസ്. നവീനൻ രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു." },
+        { "year": "1977 സെപ്റ്റംബർ", "title": "ഒരു വാടക കെട്ടിടം", "text": "ഏതാനും മാസം ഒരു വാടക കെട്ടിടത്തിൽ അദ്ദേഹം ആശുപത്രി നടത്തി." },
         { "year": "1980", "title": "ഇന്നത്തെ ആശുപത്രി", "text": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം ഇപ്പോൾ പ്രവർത്തിക്കുന്ന കെട്ടിടം അദ്ദേഹം പണിതു." },
-        { "year": "ഇന്ന്", "title": "അൻപതു വർഷത്തിനുശേഷം", "text": "ഡോ. നവീനൻ ഇന്നും രോഗികളെ കാണുന്നു. രണ്ടായിരത്തിഅറുനൂറോളോം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു; ഒപി ഫീസ് ഒരിക്കലും വാങ്ങിയിട്ടില്ല." }
+        { "year": "ഇന്ന്", "title": "അൻപതു വർഷത്തിനുശേഷം", "text": "ഡോ. എം. എസ്. നവീനൻ ഇന്നും രോഗികളെ കാണുന്നു. രണ്ടായിരത്തിഅറുനൂറോളോം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു; ഒപി ഫീസ് ഒരിക്കലും വാങ്ങിയിട്ടില്ല." }
       ]
     },
     "services": {
       "title": "സേവനങ്ങൾ",
       "lead": "വീടിനടുത്ത്, ലളിതവും താങ്ങാവുന്നതുമായ ചികിത്സ.",
       "items": [
-        { "title": "ഒപി (ഔട്ട്പേഷ്യന്റ്)", "text": "രാവിലെ 9 മുതൽ ഉച്ചയ്ക്ക് 1 വരെ, തിങ്കൾ മുതൽ ശനി വരെ. ഡോ. നവീൻ ഒരിക്കലും ഒപി ഫീസ് വാങ്ങിയിട്ടില്ല." },
+        { "title": "ഒപി (ഔട്ട്പേഷ്യന്റ്)", "text": "രാവിലെ 9 മുതൽ ഉച്ചയ്ക്ക് 1 വരെ, തിങ്കൾ മുതൽ ശനി വരെ. ഡോ. എം. എസ്. നവീനൻ ഒരിക്കലും ഒപി ഫീസ് വാങ്ങിയിട്ടില്ല." },
         { "title": "വില കുറഞ്ഞ മരുന്നുകൾ", "text": "മറ്റു സ്വകാര്യ ആശുപത്രികളിലും ക്ലിനിക്കുകളിലും ഉള്ളതിനെക്കാൾ വളരെ കുറഞ്ഞ വിലയ്ക്കാണ് ഇവിടെ മരുന്നുകൾ." }
       ],
       "closing": "പണമില്ലെന്ന കാരണത്താൽ ഒരു രോഗിയെയും മടക്കി അയയ്ക്കാറില്ല."
     },
     "naveenam": {
       "title": "നവീനം 2026",
-      "lead": "കുട്ടനാടിനു വേണ്ടിയുള്ള ഡോ. നവീന്റെ അൻപതു വർഷത്തെ സേവനത്തെ ആദരിക്കാൻ നാട്ടുകാർ ഒത്തുചേരുന്ന ചടങ്ങ്.",
+      "lead": "കുട്ടനാടിനു വേണ്ടിയുള്ള ഡോ. എം. എസ്. നവീനന്റെ അൻപതു വർഷത്തെ സേവനത്തെ ആദരിക്കാൻ നാട്ടുകാർ ഒത്തുചേരുന്ന ചടങ്ങ്.",
       "details": [ { "k": "തീയതി", "v": "1/11/2026" }, { "k": "സമയം", "v": "2:00 PM" }, { "k": "വേദി", "v": "രാമങ്കരി എസ്എൻഡിപി ഹാൾ" } ],
-      "about": "നവീനം 2026 – ആതുരസേവന സുവർണ്ണജൂബിലി ആദരസമ്മേളനം അരനൂറ്റാണ്ടുകാലത്തെ ആതുരസേവനത്തിന് ഡോ. നവീനൻ സാറിനെ ആദരിക്കുന്നതിനായി നവംബർ 1-ന് രാമങ്കരി SNDP ഹാളിൽ നവീനം 2026 സംഘടിപ്പിക്കുന്നു. കൂട്ടനാട്ടുകാരുടെ സ്വന്തം ജനകീയ ഡോക്ടറുടെ 50 വർഷത്തെ സേവനജീവിതത്തെ ആദരിക്കുകയും അദ്ദേഹത്തിന്റെ സംഭാവനകൾ അനുസ്മരിക്കുകയും ചെയ്യുന്ന ഈ ചടങ്ങ് ജനകീയ സ്നേഹത്തിന്റെയും ആദരവിന്റെയും സംഗമമാണ്. തീയതി: നവംബർ 1, 2026 വേദി: രാമങ്കരി SNDP ഹാൾ",
+      "about": "നവീനം 2026 – ആതുരസേവന സുവർണ്ണജൂബിലി ആദരസമ്മേളനം അരനൂറ്റാണ്ടുകാലത്തെ ആതുരസേവനത്തിന് ഡോ. എം. എസ്. നവീനൻ സാറിനെ ആദരിക്കുന്നതിനായി നവംബർ 1-ന് രാമങ്കരി SNDP ഹാളിൽ നവീനം 2026 സംഘടിപ്പിക്കുന്നു. കൂട്ടനാട്ടുകാരുടെ സ്വന്തം ജനകീയ ഡോക്ടറുടെ 50 വർഷത്തെ സേവനജീവിതത്തെ ആദരിക്കുകയും അദ്ദേഹത്തിന്റെ സംഭാവനകൾ അനുസ്മരിക്കുകയും ചെയ്യുന്ന ഈ ചടങ്ങ് ജനകീയ സ്നേഹത്തിന്റെയും ആദരവിന്റെയും സംഗമമാണ്. തീയതി: നവംബർ 1, 2026 വേദി: രാമങ്കരി SNDP ഹാൾ",
       "rsvpTitle": "ഞങ്ങളോടൊപ്പം ചേരൂ",
       "rsvpText": "വരുമെന്ന് അറിയിക്കൂ, ഒരുക്കങ്ങൾ എളുപ്പമാകും.",
       "rsvpCta": "വരുന്നു എന്ന് അറിയിക്കുക",
@@ -153,9 +153,9 @@
       "title": "ബന്ധപ്പെടാൻ",
       "lead": "കുട്ടനാട്, ആലപ്പുഴയിൽ ഞങ്ങളെ കണ്ടെത്താം.",
       "hoursTitle": "സമയം", "addressTitle": "വിലാസം", "address": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം, മമ്പുഴക്കരി, SH11, കുട്ടനാട് താലൂക്ക്, കേരളം 689595",
-      "phoneTitle": "ഫോൺ", "phone": "",
+      "phoneTitle": "ഫോൺ", "phone": "+91 97454 95562",
       "mapTitle": "മാപ്പ്", "mapMissing": "[[ഗൂഗിൾ മാപ്സ് എംബെഡ് ലിങ്ക്]]",
-      "emergencyTitle": "അത്യാവശ്യ ഘട്ടത്തിൽ", "emergencyText": "+91 1234567890"
+      "emergencyTitle": "അത്യാവശ്യ ഘട്ടത്തിൽ", "emergencyText": "+91 97454 95562"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
   "hero": { "src": "/images/hero.png", "hint": "calm wide shot of Kuttanad paddy fields or backwaters at dawn, 2400x1400", "alt": { "en": "Kuttanad landscape at dawn", "ml": "പുലർകാലത്തെ കുട്ടനാടൻ കാഴ്ച" } },
-  "doctor": { "src": "/images/dr.png", "hint": "portrait of Dr. Naveen, vertical 4:5, natural light, 1600x2000", "alt": { "en": "Portrait of Dr. Naveen", "ml": "ഡോ. നവീന്റെ ചിത്രം" } },
-  "doctorWide": { "src": "/images/drlandscape.png", "hint": "Dr. Naveen with patients or at work, landscape 3:2", "alt": { "en": "Dr. Naveen at work", "ml": "ജോലിയിൽ ഡോ. നവീൻ" } },
+  "doctor": { "src": "/images/dr.png", "hint": "portrait of Dr. M S Naveenan, vertical 4:5, natural light, 1600x2000", "alt": { "en": "Portrait of Dr. M S Naveenan MBBS", "ml": "ഡോ. എം. എസ്. നവീനന്റെ ചിത്രം" } },
+  "doctorWide": { "src": "/images/drlandscape.png", "hint": "Dr. M S Naveenan with patients or at work, landscape 3:2", "alt": { "en": "Dr. M S Naveenan at work", "ml": "ജോലിയിൽ ഡോ. എം. എസ്. നവീനൻ" } },
   "hospital": { "src": "/images/hospital.png", "hint": "the hospital building today, landscape 3:2", "alt": { "en": "Lekshmi Nursing Home building", "ml": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം കെട്ടിടം" } },
   "paddy": { "src": "/images/paddy.jpg", "hint": "paddy fields of Kuttanad, landscape 16:9", "alt": { "en": "Paddy fields of Kuttanad", "ml": "കുട്ടനാട്ടിലെ നെൽപ്പാടങ്ങൾ" } },
   "backwater": { "src": "/images/backwater.webp", "hint": "backwater scene with a boat, landscape 16:9", "alt": { "en": "Kuttanad backwaters", "ml": "കുട്ടനാട്ടിലെ കായൽ" } }

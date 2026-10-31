@@ -13,7 +13,7 @@
     "home": {
       "headline": "Fifty years of care, given like family.",
       "sub": "Lekshmi Nursing Home in Kuttanad, led by Dr. M S Naveenan, who still sees patients himself.",
-      "facts": [ { "n": "50", "l": "years serving Kuttanad" }, { "n": "₹0", "l": "OP fee, ever" }, { "n": "2600+", "l": "babies born here" } ],
+      "facts": [ { "n": "50", "l": "years serving Kuttanad" }, { "n": "₹0", "l": "OP fee, ever" }, { "n": "2300+", "l": "babies born here" } ],
       "opTitle": "When to come",
       "promiseTitle": "No one is sent away for lack of money.",
       "promiseText": "Dr. M S Naveenan has never charged an OP fee. Medicines here cost far less than at other private hospitals and clinics.",
@@ -42,7 +42,7 @@
         "Kuttanad is not where he was born, yet people turn to him the way they turn to their own. Many respect him like a god."
       ],
       "numbersTitle": "In numbers",
-      "numbers": [ "50 years of service", "No OP fee, ever", "More than 100 babies born here, without a specialist gynaecologist" ],
+      "numbers": [ "50 years of service", "No OP fee, ever", "About 2,300 babies born here, without a specialist gynaecologist" ],
       "photoCaption": "Dr. M S Naveenan MBBS"
     },
     "story": {
@@ -52,7 +52,7 @@
         { "year": "1977 February", "title": "Ramankari", "text": "After his house surgeoncy, in the gap before his PG, Dr. M S Naveenan came to Ramankari and served for a few years." },
         { "year": "1977 September", "title": "A rented building", "text": "He ran the hospital for some months from a rented building." },
         { "year": "1980", "title": "The hospital today", "text": "He built the hospital building that Lekshmi Nursing Home works from now." },
-        { "year": "Today", "title": "Fifty years on", "text": "Dr. M S Naveenan still sees patients. More than 100 babies have been born here, and no OP fee has ever been charged." }
+        { "year": "Today", "title": "Fifty years on", "text": "Dr. M S Naveenan still sees patients. About 2,300 babies have been born here, and no OP fee has ever been charged." }
       ]
     },
     "services": {
@@ -69,11 +69,12 @@
       "lead": "A community gathering to honour Dr. M S Naveenan's 50 years of service to Kuttanad.",
       "details": [ { "k": "Date", "v": "1/11/2026" }, { "k": "Time", "v": "2:00 PM" }, { "k": "Venue", "v": "Ramankari SNDP open Hall" } ],
       "about": "Naveenam 2026 – Golden Jubilee Felicitation Ceremony Naveenam 2026 is being organised to honour Dr. M S Naveenan for completing 50 remarkable years of dedicated service in the field of healthcare. This special occasion celebrates the contributions of Kuttanad’s beloved people’s doctor, recognising his compassion, commitment, and invaluable service to the community. Date: November 1, 2026 Venue: Ramankari SNDP Hall",
-      "rsvpTitle": "Join us",
-      "rsvpText": "join the whatsapp group",
-      "rsvpCta": "RSVP",
-      "rsvpUrl": "https://chat.whatsapp.com/H6zIUjsxx97KthbkoA2qev",
-      "rsvpMissing": "https://chat.whatsapp.com/H6zIUjsxx97KthbkoA2qev"
+      "rsvpTitle": "Find the venue",
+      "rsvpText": "SNDP Branch No. 7, Ramankari. Open the map for directions.",
+      "rsvpCta": "Open in Google Maps",
+      "venueMapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.4786730219539!2d76.46826918117763!3d9.423108471649591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062763daaccd27%3A0xbe9c9c84f4a473d7!2sSNDP%20Br%20NO%20.%207%20Ramankary!5e1!3m2!1sen!2sin!4v1793467734869!5m2!1sen!2sin",
+      "rsvpUrl": "https://maps.google.com/?cid=13735025058427204567",
+      "rsvpMissing": "https://maps.google.com/?cid=13735025058427204567"
     },
     "contact": {
       "title": "Contact",
@@ -93,7 +94,7 @@
     "home": {
       "headline": "അൻപതു വർഷത്തെ കരുതൽ, കുടുംബത്തിലൊരാളെപ്പോലെ.",
       "sub": "കുട്ടനാട്ടിലെ ലക്ഷ്മി നഴ്സിംഗ് ഹോം. ഇന്നും രോഗികളെ നേരിട്ടു കാണുന്ന ഡോ. എം. എസ്. നവീനന്റെ നേതൃത്വത്തിൽ.",
-      "facts": [ { "n": "50", "l": "വർഷം കുട്ടനാടിനൊപ്പം" }, { "n": "₹0", "l": "ഒപി ഫീസ്, ഇന്നുവരെ" }, { "n": "2600+", "l": "കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" } ],
+      "facts": [ { "n": "50", "l": "വർഷം കുട്ടനാടിനൊപ്പം" }, { "n": "₹0", "l": "ഒപി ഫീസ്, ഇന്നുവരെ" }, { "n": "2300+", "l": "കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" } ],
       "opTitle": "എപ്പോൾ വരാം",
       "promiseTitle": "പണമില്ലെന്ന കാരണത്താൽ ആരെയും മടക്കി അയയ്ക്കാറില്ല.",
       "promiseText": "ഡോ. എം. എസ്. നവീനൻ ഇന്നുവരെ ഒപി ഫീസ് വാങ്ങിയിട്ടില്ല. മറ്റു സ്വകാര്യ ആശുപത്രികളിലും ക്ലിനിക്കുകളിലും ഉള്ളതിനെക്കാൾ വളരെ കുറഞ്ഞ വിലയ്ക്കാണ് ഇവിടെ മരുന്നുകൾ.",
@@ -122,7 +123,7 @@
         "ഞാൻ കൊടുപ്പുന്നക്കാരിയാണ് ഇപ്പോൾ താമസം വയനാട്ടിലാണ് നവീനൻ doctor ഞങ്ങളുടെ family Dr ആയ ദൈവം ആണ് എന്ത് അസുഖം വന്നാലും നവീനൻ ഡോക്ടറുടെ അടുത്താണ് ഞങ്ങൾ അഭയം തേടുന്നത് പിന്നെ എന്റെയും അനുജത്തി വിജിയുടെയും പ്രസവം എടുത്തതും ഇദ്ദേഹമാണ് ഞങ്ങൾ ദൈവമായി കരുതുന്ന Dr ഞങ്ങളുടെ ഹൃദയത്തിൽ എന്നെന്നും തിളങ്ങി നിൽക്കും അദ്ദേഹത്തിന്റെ ഈ സ്നേഹാദരവിൽ എല്ലാവിധ മംഗളങ്ങളും നേരുന്നു "
       ],
       "numbersTitle": "ചില കണക്കുകൾ",
-      "numbers": [ "അൻപതു വർഷത്തെ സേവനം", "ഒപി ഫീസ് ഇന്നുവരെ ഇല്ല", "സ്പെഷ്യലിസ്റ്റ് ഗൈനക്കോളജിസ്റ്റ് ഇല്ലാതെതന്നെ രണ്ടായിരത്തിഅറുനൂറോളോം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" ],
+      "numbers": [ "അൻപതു വർഷത്തെ സേവനം", "ഒപി ഫീസ് ഇന്നുവരെ ഇല്ല", "സ്പെഷ്യലിസ്റ്റ് ഗൈനക്കോളജിസ്റ്റ് ഇല്ലാതെതന്നെ രണ്ടായിരത്തിമുന്നൂറോളം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു" ],
       "photoCaption": "ഡോ. എം. എസ്. നവീനൻ MBBS"
     },
     "story": {
@@ -132,7 +133,7 @@
         { "year": "1977 ഫെബ്രുവരി", "title": "രാമങ്കരി", "text": "ഹൗസ് സർജൻസിക്കു ശേഷം പിജിക്കു മുമ്പുള്ള ഇടവേളയിൽ ഡോ. എം. എസ്. നവീനൻ രാമങ്കരിയിലെത്തി, കുറച്ചു വർഷം അവിടെ സേവനം ചെയ്തു." },
         { "year": "1977 സെപ്റ്റംബർ", "title": "ഒരു വാടക കെട്ടിടം", "text": "ഏതാനും മാസം ഒരു വാടക കെട്ടിടത്തിൽ അദ്ദേഹം ആശുപത്രി നടത്തി." },
         { "year": "1980", "title": "ഇന്നത്തെ ആശുപത്രി", "text": "ലക്ഷ്മി നഴ്സിംഗ് ഹോം ഇപ്പോൾ പ്രവർത്തിക്കുന്ന കെട്ടിടം അദ്ദേഹം പണിതു." },
-        { "year": "ഇന്ന്", "title": "അൻപതു വർഷത്തിനുശേഷം", "text": "ഡോ. എം. എസ്. നവീനൻ ഇന്നും രോഗികളെ കാണുന്നു. രണ്ടായിരത്തിഅറുനൂറോളോം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു; ഒപി ഫീസ് ഒരിക്കലും വാങ്ങിയിട്ടില്ല." }
+        { "year": "ഇന്ന്", "title": "അൻപതു വർഷത്തിനുശേഷം", "text": "ഡോ. എം. എസ്. നവീനൻ ഇന്നും രോഗികളെ കാണുന്നു. രണ്ടായിരത്തിമുന്നൂറോളം കുഞ്ഞുങ്ങൾ ഇവിടെ പിറന്നു; ഒപി ഫീസ് ഒരിക്കലും വാങ്ങിയിട്ടില്ല." }
       ]
     },
     "services": {
@@ -149,11 +150,12 @@
       "lead": "കുട്ടനാടിനു വേണ്ടിയുള്ള ഡോ. എം. എസ്. നവീനന്റെ അൻപതു വർഷത്തെ സേവനത്തെ ആദരിക്കാൻ നാട്ടുകാർ ഒത്തുചേരുന്ന ചടങ്ങ്.",
       "details": [ { "k": "തീയതി", "v": "1/11/2026" }, { "k": "സമയം", "v": "2:00 PM" }, { "k": "വേദി", "v": "രാമങ്കരി എസ്എൻഡിപി ഹാൾ" } ],
       "about": "നവീനം 2026 – ആതുരസേവന സുവർണ്ണജൂബിലി ആദരസമ്മേളനം അരനൂറ്റാണ്ടുകാലത്തെ ആതുരസേവനത്തിന് ഡോ. എം. എസ്. നവീനൻ സാറിനെ ആദരിക്കുന്നതിനായി നവംബർ 1-ന് രാമങ്കരി SNDP ഹാളിൽ നവീനം 2026 സംഘടിപ്പിക്കുന്നു. കൂട്ടനാട്ടുകാരുടെ സ്വന്തം ജനകീയ ഡോക്ടറുടെ 50 വർഷത്തെ സേവനജീവിതത്തെ ആദരിക്കുകയും അദ്ദേഹത്തിന്റെ സംഭാവനകൾ അനുസ്മരിക്കുകയും ചെയ്യുന്ന ഈ ചടങ്ങ് ജനകീയ സ്നേഹത്തിന്റെയും ആദരവിന്റെയും സംഗമമാണ്. തീയതി: നവംബർ 1, 2026 വേദി: രാമങ്കരി SNDP ഹാൾ",
-      "rsvpTitle": "ഞങ്ങളോടൊപ്പം ചേരൂ",
-      "rsvpText": "വരുമെന്ന് അറിയിക്കൂ, ഒരുക്കങ്ങൾ എളുപ്പമാകും.",
-      "rsvpCta": "വരുന്നു എന്ന് അറിയിക്കുക",
-      "rsvpUrl": "https://chat.whatsapp.com/H6zIUjsxx97KthbkoA2qev",
-      "rsvpMissing": "https://chat.whatsapp.com/H6zIUjsxx97KthbkoA2qev"
+      "rsvpTitle": "വേദി കണ്ടെത്താം",
+      "rsvpText": "എസ്എൻഡിപി ശാഖ നം. 7, രാമങ്കരി. വഴി അറിയാൻ മാപ്പ് തുറക്കൂ.",
+      "rsvpCta": "ഗൂഗിൾ മാപ്പിൽ തുറക്കുക",
+      "venueMapEmbed": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d280.4786730219539!2d76.46826918117763!3d9.423108471649591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b062763daaccd27%3A0xbe9c9c84f4a473d7!2sSNDP%20Br%20NO%20.%207%20Ramankary!5e1!3m2!1sen!2sin!4v1793467734869!5m2!1sen!2sin",
+      "rsvpUrl": "https://maps.google.com/?cid=13735025058427204567",
+      "rsvpMissing": "https://maps.google.com/?cid=13735025058427204567"
     },
     "contact": {
       "title": "ബന്ധപ്പെടാൻ",

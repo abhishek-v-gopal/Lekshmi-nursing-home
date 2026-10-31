@@ -31,6 +31,9 @@ export default async function Naveenam({ params }: P) {
         <div className="card p-8 md:p-12">
           <h2 className="text-3xl">{x.rsvpTitle}</h2>
           <p className="mt-4 text-muted">{x.rsvpText}</p>
+          <div className="mt-6 aspect-[4/3] w-full overflow-hidden rounded-[1rem] border border-line bg-bg">
+            <iframe src={x.venueMapEmbed} title={x.rsvpTitle} loading="lazy" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen className="h-full w-full border-0" />
+          </div>
           <div className="mt-8">
             <a href={x.rsvpUrl} target="_blank" rel="noopener noreferrer" className="btn">{x.rsvpCta}</a>
           </div>

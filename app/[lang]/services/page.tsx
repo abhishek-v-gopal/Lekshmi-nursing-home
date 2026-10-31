@@ -8,7 +8,7 @@ import { getDict, pageMeta, shared, type Lang } from "@/lib/i18n";
 type P = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: P) {
   const lang = (await params).lang as Lang;
-  return pageMeta(lang, getDict(lang).nav.services, "/services");
+  return pageMeta(lang, "services", "/services");
 }
 export default async function Services({ params }: P) {
   const lang = (await params).lang as Lang;

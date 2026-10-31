@@ -9,6 +9,9 @@ npm run dev        # http://localhost:3000
 npm run build && npm start
 ```
 Set `NEXT_PUBLIC_SITE_URL=https://your-domain` in the host's environment (used for Open Graph, sitemap, canonical links).
+Optional: `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=<code>` adds the Google Search Console verification tag.
+
+Search titles and descriptions for each page are in `seo` in each language block of `content/site.json`.
 
 ## Change text and hours
 All copy for both languages is in `content/site.json` (`en` and `ml` blocks have the same structure).

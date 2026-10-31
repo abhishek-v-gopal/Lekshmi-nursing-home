@@ -62,6 +62,10 @@ a { transition: color 180ms ease, background-color 180ms ease, border-color 180m
 .hero-progress { animation: hero-progress 7s linear both; }
 @keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
 .rise { animation: rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
+@keyframes live-dot { 50% { opacity: 0.25; } }
+.live-dot { animation: live-dot 1.2s ease-in-out infinite; }
+@keyframes pop-in { from { opacity: 0; transform: translateY(16px) scale(0.97); } to { opacity: 1; transform: none; } }
+.live-pop[open] { animation: pop-in 0.35s cubic-bezier(.2,.7,.2,1) both; }
 @keyframes page-in { from { opacity: 0; } to { opacity: 1; } }
 .page-in { animation: page-in 0.4s ease both; }
 @media (prefers-reduced-motion: reduce) {

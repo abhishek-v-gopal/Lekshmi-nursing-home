@@ -4,17 +4,30 @@ import Reveal from "@/components/Reveal";
 import Txt from "@/components/Txt";
 import Hours from "@/components/Hours";
 import PageHead from "@/components/PageHead";
-import { getDict, pageMeta, shared, type Lang } from "@/lib/i18n";
+import { getDict, pageMeta, shared, siteUrl, type Lang } from "@/lib/i18n";
 type P = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: P) {
   const lang = (await params).lang as Lang;
-  return pageMeta(lang, getDict(lang).nav.naveenam, "/naveenam");
+  return pageMeta(lang, "naveenam", "/naveenam");
 }
 export default async function Naveenam({ params }: P) {
   const lang = (await params).lang as Lang;
   const x = getDict(lang).naveenam;
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        "@context": "https://schema.org", "@type": "Event", name: "Naveenam 2026", description: x.lead,
+        startDate: "2026-11-01T14:00:00+05:30", eventStatus: "https://schema.org/EventScheduled",
+        eventAttendanceMode: shared.live.url ? "https://schema.org/MixedEventAttendanceMode" : "https://schema.org/OfflineEventAttendanceMode",
+        location: [
+          { "@type": "Place", name: "SNDP Hall, Branch No. 7, Ramankari", address: { "@type": "PostalAddress", addressLocality: "Ramankari", addressRegion: "Kerala", addressCountry: "IN" } },
+          ...(shared.live.url ? [{ "@type": "VirtualLocation", url: shared.live.url }] : []),
+        ],
+        image: `${siteUrl}/images/drlandscape.png`, url: `${siteUrl}/${lang}/naveenam`,
+        organizer: { "@type": "Organization", name: "Lekshmi Nursing Home", url: siteUrl },
+        performer: { "@type": "Person", name: "Dr. M S Naveenan" },
+        isAccessibleForFree: true,
+      }) }} />
       <PageHead title={x.title} lead={x.lead} />
       <section className="wrap grid gap-12 pb-20 md:grid-cols-2 md:gap-20">
         <div>

@@ -11,7 +11,7 @@ type P = { params: Promise<{ lang: string }> };
 import type { Metadata } from "next";
 export async function generateMetadata({ params }: P): Promise<Metadata> {
   const lang = (await params).lang as Lang;
-  return { alternates: pageMeta(lang, "", "").alternates };
+  return pageMeta(lang, "home", "");
 }
 export default async function Home({ params }: P) {
   const lang = (await params).lang as Lang;

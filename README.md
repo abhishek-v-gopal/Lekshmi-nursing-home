@@ -10,6 +10,7 @@ npm run build && npm start
 ```
 Set `NEXT_PUBLIC_SITE_URL=https://your-domain` in the host's environment (used for Open Graph, sitemap, canonical links).
 Optional: `NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION=<code>` adds the Google Search Console verification tag.
+Google Analytics 4 (`G-Y00Z3E9HLF`) loads on production builds only. Set `NEXT_PUBLIC_GA_ID` to use a different property.
 
 Search titles and descriptions for each page are in `seo` in each language block of `content/site.json`.
 

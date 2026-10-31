@@ -6,6 +6,7 @@ import "../globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LivePopup from "@/components/LivePopup";
+import Analytics from "@/components/Analytics";
 import { getDict, isLang, locales, shared, siteUrl, type Lang } from "@/lib/i18n";
 
 const serifL = Noto_Serif({ subsets: ["latin"], variable: "--f-serif-l", display: "swap", style: ["normal", "italic"] });
@@ -77,6 +78,7 @@ export default async function RootLayout({ children, params }: { children: React
         <Footer lang={lang} d={d} />
         <LivePopup lang={lang} url={shared.live.url} until={shared.live.until} labels={d.ui.live} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(ld) }} />
+        <Analytics />
       </body>
     </html>
   );

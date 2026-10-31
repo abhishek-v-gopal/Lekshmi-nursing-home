@@ -73,6 +73,20 @@ export default async function Home({ params }: P) {
         </div>
       </section>
 
+      <section className="wrap grid items-center gap-12 pt-24 md:grid-cols-12 md:gap-16 md:pt-32 short:pt-20">
+        <Reveal className="md:col-span-5">
+          <p className="eyebrow mb-5">{h.staffEyebrow}</p>
+          <h2 className="text-3xl md:text-5xl short:text-4xl">{h.staffTitle}</h2>
+          <p className="mt-6 text-lg text-muted">{h.staffText}</p>
+        </Reveal>
+        <div className="relative md:col-span-7">
+          <div aria-hidden="true" className="absolute -bottom-4 -left-4 h-full w-full rounded-[1.5rem] border-2 border-gold/60" />
+          <div className="relative overflow-hidden rounded-[1.5rem] shadow-2xl shadow-black/20">
+            <Photo slot="staff" lang={lang} ratio="4 / 3" sizes="(min-width:768px) 56vw, 100vw" />
+          </div>
+        </div>
+      </section>
+
       <section className="sec wrap">
         <Reveal className="relative isolate overflow-hidden rounded-[1.75rem] bg-[#0B1E21] px-7 py-16 text-[#F3F5F0] md:px-16 md:py-24 short:py-16">
           <div className="absolute inset-0 -z-10 opacity-45"><Photo slot="backwater" lang={lang} fill dark sizes="(min-width:1024px) 76rem, 100vw" /></div>

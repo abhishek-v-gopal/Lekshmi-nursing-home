@@ -2,19 +2,14 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import type { Lang } from "@/lib/i18n";
+import { youtubeEmbed } from "@/lib/youtube";
 
 type Labels = { badge: string; title: string; text: string; cta: string; details: string; close: string };
-
-// Turns a YouTube watch / youtu.be / live link into an embeddable player URL; other links just open in a new tab.
-const youtubeEmbed = (url: string) => {
-  const m = url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|live\/|embed\/))([\w-]{11})/);
-  return m ? `https://www.youtube-nocookie.com/embed/${m[1]}?autoplay=1` : null;
-};
 
 export default function LivePopup({ lang, url, until, labels }: { lang: Lang; url: string; until: string; labels: Labels }) {
   const ref = useRef<HTMLDialogElement>(null);
   const [playing, setPlaying] = useState(false);
-  const embed = url ? youtubeEmbed(url) : null;
+  const embed = url ? youtubeEmbed(url, true) : null;
 
   useEffect(() => {
     if (Date.now() > Date.parse(until)) return;

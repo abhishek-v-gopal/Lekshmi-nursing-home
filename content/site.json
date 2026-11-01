@@ -2,7 +2,7 @@
   "shared": {
     "address": "Lekshmi Nursing Home, Mampuzhakari, SH11, Kuttanad Taluk, Keralam 689595", "phone": "+91 97454 95562", "rsvpUrl": "", "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291.80407926357094!2d76.47198620965838!3d9.42212163341523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06279bbecefcb5%3A0x7b988f4a3c807cae!2sLakshmi%20Nursing%20Home!5e1!3m2!1sen!2sin!4v1793033448148!5m2!1sen!2sin",
     "opens": "09:00", "closes": "13:00",
-    "live": { "url": "", "until": "2026-11-01T23:59:00+05:30" },
+    "live": { "url": "https://www.youtube.com/live/0Tse6-Rs6eg", "until": "2026-11-01T23:59:00+05:30" },
     "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
   },
   "en": {

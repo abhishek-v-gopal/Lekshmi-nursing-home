@@ -5,6 +5,7 @@ import Txt from "@/components/Txt";
 import Hours from "@/components/Hours";
 import PageHead from "@/components/PageHead";
 import { getDict, pageMeta, shared, siteUrl, type Lang } from "@/lib/i18n";
+import { youtubeEmbed } from "@/lib/youtube";
 type P = { params: Promise<{ lang: string }> };
 export async function generateMetadata({ params }: P) {
   const lang = (await params).lang as Lang;
@@ -12,7 +13,9 @@ export async function generateMetadata({ params }: P) {
 }
 export default async function Naveenam({ params }: P) {
   const lang = (await params).lang as Lang;
-  const x = getDict(lang).naveenam;
+  const d = getDict(lang);
+  const x = d.naveenam;
+  const live = shared.live.url ? youtubeEmbed(shared.live.url) : null;
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
@@ -29,6 +32,16 @@ export default async function Naveenam({ params }: P) {
         isAccessibleForFree: true,
       }) }} />
       <PageHead title={x.title} lead={x.lead} />
+      {live && (
+        <section className="wrap pb-16">
+          <p className="mb-4 inline-flex items-center gap-2 rounded-full bg-[#C8372D] px-3 py-1 text-xs font-bold tracking-[0.16em] text-white">
+            <span aria-hidden="true" className="live-dot h-2 w-2 rounded-full bg-white" />{d.ui.live.badge}
+          </p>
+          <div className="aspect-video w-full overflow-hidden rounded-[1.5rem] bg-black shadow-2xl shadow-black/20">
+            <iframe src={live} title={d.ui.live.title} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen className="h-full w-full border-0" />
+          </div>
+        </section>
+      )}
       <section className="wrap grid gap-12 pb-20 md:grid-cols-2 md:gap-20">
         <div>
           <dl>
